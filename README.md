@@ -1,50 +1,79 @@
-# 🌍 Travel App - Flutter
+# 🛍️ eShop - Flutter
 
-A feature-rich travel planner built with Flutter — helping users explore destinations, plan itineraries, get weather forecasts, and more.
+A full-featured shopping app built with Flutter — helping users discover products, manage carts, place orders, and track deliveries with ease.
 
 ---
 
-## 🧭 About the Project
+## 🧾 About the Project
 
-**Sri Travel** is a cross-platform mobile app developed in Flutter to assist travelers in organizing personalized trips. It features destination discovery, smart itinerary planning, real-time weather updates, and robust data syncing via Firebase.
+**eShop** is a cross-platform mobile eCommerce application built using Flutter. It allows users to browse products, manage their shopping carts, make purchases, and view order status. Seamless backend integration is powered by Firebase for authentication, real-time database, and cloud storage.
 
 ---
 
 ## 🛠️ Built With
 
-- **Flutter & Dart** – Modern cross-platform mobile framework  
+- **Flutter & Dart** – Fast, expressive UI toolkit for mobile  
 - **Firebase** – Authentication, Firestore, Cloud Storage  
-- **Microsoft Azure Maps** – Route & travel time calculation  
-- **Google Sign-In** – Secure and seamless user login  
-- **Visual Studio Code** – Development IDE  
-- **Git** – Source control and collaboration
+- **Stripe** – Secure online payments  
+- **Google Sign-In** – Simple and secure login  
+- **Visual Studio Code** – Development environment  
+- **Git** – Version control and collaboration
 
 ---
 
 ## ✨ Key Features
 
-- **Trip Planning & Itinerary Creation**  
-  Craft multi-day travel plans with destinations, activities, and accommodations.
+- **Product Browsing**  
+  Discover products across multiple categories with a smooth UI experience.
 
-- **Place Search & Management**  
-  Discover attractions, view detailed info, and add them to trips or favorites.
+- **Advanced Search & Filters**  
+  Easily find items with custom filters like price range, rating, and categories.
 
-- **Favorites Collection**  
-  Save and organize places you love or plan to visit.
+- **Cart & Wishlist Management**  
+  Add, remove, or edit items in the cart and save favorites for later.
 
-- **Smart Routing with Azure Maps**  
-  Get optimized travel routes with distance and estimated time.
+- **Secure Checkout with Stripe**  
+  Safe and seamless payment processing integrated directly in the app.
 
-- **Live Weather Forecasts**  
-  Stay updated with real-time weather for every stop on your trip.
+- **Order Tracking**  
+  Track your orders in real-time from confirmation to delivery.
 
-- **Search & Filters**  
-  Quickly find destinations, activities, or accommodations with built-in filters.
+- **User Authentication**  
+  Sign in with Google or email for personalized experience and order history.
 
-- **Google Authentication**  
-  Sign in easily and securely with your Google account.
+- **Cloud Synced Data**  
+  All user data is synced in real-time using Firebase Firestore.
 
-- **Attraction Suggestions**  
-  Discover hidden gems and top-rated activities based on your location and preferences.
+- **Responsive Design**  
+  Optimized for both Android and iOS devices.
 
 ---
+
+## 📦 Getting Started
+
+To run the project locally:
+
+1. Clone the repository  
+   `git clone https://github.com/your-username/eshop-flutter.git`
+
+2. Navigate to the project directory  
+   `cd eshop-flutter`
+
+3. Get dependencies  
+   `flutter pub get`
+
+4. Run the app  
+   `flutter run`
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome!  
+Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
